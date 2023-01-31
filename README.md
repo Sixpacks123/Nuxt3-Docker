@@ -27,7 +27,3 @@ Hot reload is in place 🪄
 
 -  This project will works on Windows but **you have to run project in a WSL** (_recommended WSL2_) Linux distribution (like Ubuntu) because there is a bug + bad perfomances with Docker Desktop + files in Windows.
 -  For now, Nuxt3 is not ready for production.
-
-## Buy me a coffee 🍵
-
-If you want (_and because i love the coffee 🥰_), [you can buy me a coffee](https://www.buymeacoffee.com/suniron) ❤️‍🔥
