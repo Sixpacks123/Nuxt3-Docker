@@ -33,7 +33,7 @@ RUN npm install pm2 -g
 COPY --chown=node:node ./ecosystem.config.js /nuxt/
 
 # Install only production packages
-RUN yarn --frozen-lockfile --production
+# RUN yarn --frozen-lockfile --production
 
 # To have lightest as possible, take only built files:
 COPY --from=builder --chown=node:node /nuxt/.output/ /nuxt/.output
