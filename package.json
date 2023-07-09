@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "docker:dev": "docker compose -f \"docker-compose.dev.yml\" up -d --build",
+    "docker:prod": "docker compose -f \"docker-compose.prod.yml\" up -d --build",
+    "docker": "yarn && yarn dev",
+    "start": "pm2-runtime ecosystem.config.js"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.16.19",
+    "nuxt": "^3.6.2"
+  }
+}
+
+
